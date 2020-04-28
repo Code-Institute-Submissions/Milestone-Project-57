@@ -35,11 +35,28 @@ h2 {
 }
 
 .nav {
-  padding: 40px 0;
-  border: 10px solid rgba(151, 19, 47, 0.842);
+  padding: 25px 0;
+  border: 10px solid rgba(18, 202, 12, 0.747);
 }
 
 .nav a {
   font-size: 1em;
   color: rgb(255, 255, 255);
+  margin: 0 10px;
+}
+
+.nav a i {
+    display: block;
+    text-align: center;
+}
+
+a:hover {
+    color:  rgba(236, 223, 40, 0.842);
+    transition: 0.12s ease;
+
+}
+
+i:hover {
+    font-size: 2em;
+    transition: 0.2s ease;
 }
