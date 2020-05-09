@@ -21,13 +21,14 @@ h2 {
 }
 
 .nav {
+  padding: 15px 0;
   background-color: #fff;
   border-top: 3px solid #3d7dca;
 }
 
 .nav a {
-  font-size: 1em;
-  margin: 0 10px;
+  font-size: 1.2em;
+  margin: 0 auto;
 }
 
 .nav a i {
