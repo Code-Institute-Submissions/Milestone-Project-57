@@ -1,62 +1,44 @@
 body {
-  background-image: linear-gradient(
-    45deg,
-    rgba(172, 3, 3, 0.76),
-    rgba(197, 52, 7, 0.822)
-  );
-  color: rgb(255, 255, 255);
+  background-color: #ffcb05;
+  color: #000;
 }
 
 h2 {
   font-size: 1.5em;
   padding: 15px;
   margin: 0;
-  background-image: linear-gradient(
-    45deg,
-    rgba(233, 230, 20, 0.801),
-    rgba(182, 158, 23, 0.911)
-  );
-}
-
-.border-head{
-    border: 10px solid rgba(4, 221, 149, 0.89);
 }
 
 .border-guess {
-  border: 10px solid rgba(4, 116, 221, 0.719);
   padding: 80px 0;
   margin: 0;
+  background-color: #fff;
+  border: 10px solid #3d7dca;
 }
 
 .border-option {
   padding: 10px 0;
   margin: 10px;
-  border: 10px solid rgba(151, 19, 47, 0.842);
+  background-color: #fff;
+  border: 10px solid #3d7dca;
 }
 
 .nav {
   padding: 25px 0;
-  border: 10px solid rgba(18, 202, 12, 0.747);
+  background-color: #fff;
+  border: 10px solid #3d7dca;
 }
 
 .nav a {
   font-size: 1em;
-  color: rgb(255, 255, 255);
   margin: 0 10px;
 }
 
 .nav a i {
-    display: block;
-    text-align: center;
+  display: block;
+  text-align: center;
 }
 
 a:hover {
-    color:  rgba(236, 223, 40, 0.842);
-    transition: 0.12s ease;
-
-}
-
-i:hover {
-    font-size: 2em;
-    transition: 0.2s ease;
+  color: #003a70;
 }
