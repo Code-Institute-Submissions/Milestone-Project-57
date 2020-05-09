@@ -38,4 +38,6 @@ h2 {
 
 a:hover {
   color: #003a70;
+  transform: translateY(-5px);
+  transition: transform 150ms;
 }
