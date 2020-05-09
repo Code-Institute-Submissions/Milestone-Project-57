@@ -1,32 +1,28 @@
 body {
   background-color: #ffcb05;
-  color: #000;
+  color: #003a70;
 }
 
 h2 {
-  font-size: 1.5em;
-  padding: 15px;
-  margin: 0;
+  font-size: 2em;
+  margin: 10px auto;
 }
 
 .border-guess {
-  padding: 80px 0;
-  margin: 0;
+  margin: 10px auto;
   background-color: #fff;
-  border: 10px solid #3d7dca;
+  border: 5px solid #3d7dca;
 }
 
 .border-option {
-  padding: 10px 0;
-  margin: 10px;
+  margin: 10px auto;
   background-color: #fff;
-  border: 10px solid #3d7dca;
+  border: 5px solid #3d7dca;
 }
 
 .nav {
-  padding: 25px 0;
   background-color: #fff;
-  border: 10px solid #3d7dca;
+  border-top: 3px solid #3d7dca;
 }
 
 .nav a {
