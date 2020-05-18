@@ -52,4 +52,5 @@ option1.onclick = function () {
 option2.onclick = function () {
   option2.style.backgroundColor = "rgba(255, 0, 0, 0.315)";
   window.location = "index.html";
-};
+}; 
+
