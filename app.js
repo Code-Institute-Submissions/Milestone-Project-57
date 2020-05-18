@@ -1,18 +1,19 @@
 let correctPokemon;
- const start =  () => {
+ const start = async () => {
     //create a random number for correct answer
     const ranNum = Math.floor(Math.random() * 151);
     // call the pokemon api for the data
     const url = `https://pokeapi.co/api/v2/pokemon/${ranNum}`;
-    const response =  fetch(url).then((response) => {
+    const response =  await fetch(url);
+    const json = await response.json();
     correctPokemon = {
-            name: results.name,
-            id: results.id,
-            image: results.sprites.front_default
+            name: json.name,
+            id: json.id,
+            image: json.sprites.front_default
         };
         console.log(correctPokemon);
     // join the pokemon image data
-   var logo = document.getElementById('correct-image').src = correctPokemon.image;
+ document.getElementById('correct-image').src = correctPokemon.image;
     // create other 3 name data random for options
 
     // call api for the data
@@ -20,6 +21,6 @@ let correctPokemon;
     //join the pokemon name data
 
     //
-});
+
 }
 start();
