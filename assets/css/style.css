@@ -12,7 +12,8 @@ h2 {
 
 .border-guess,
 .border-option {
-  margin: 10px 20px;
+  margin: 20px 20px;
+  padding: 0;
   background-color: rgb(255, 255, 255);
   border: 2px solid #3d7dca;
 }
@@ -65,8 +66,13 @@ a:hover {
 
 p {
   font-size: 1.2rem;
-  font: bolder;
-  padding: 20px;
-  margin: 0;
   color: #003a70;
+  padding: 10px;
+}
+
+#option1:hover,
+#option2:hover {
+  cursor: pointer;
+  background-color: rgba(0, 183, 255, 0.13);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
