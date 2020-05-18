@@ -1,7 +1,7 @@
 let correctPokemon;
  const start = async () => {
     //create a random number for correct answer
-    const ranNum = Math.floor(Math.random() * 151);
+    const ranNum = Math.floor(Math.random() * 151)+1;
     // call the pokemon api for the data
     const url = `https://pokeapi.co/api/v2/pokemon/${ranNum}`;
     const response =  await fetch(url);
