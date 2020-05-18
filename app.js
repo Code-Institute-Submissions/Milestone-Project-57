@@ -1,6 +1,5 @@
 let correctPokemon;
 let correctPokemon2;
-
 const option1 = document.getElementById("option1");
 const option2 = document.getElementById("option2");
 
@@ -47,10 +46,9 @@ start();
 
 option1.onclick = function () {
   option1.style.backgroundColor = "rgba(30, 255, 0, 0.315)";
-  window.location = "index.html";
+  window.location = "play.html";
 };
 option2.onclick = function () {
   option2.style.backgroundColor = "rgba(255, 0, 0, 0.315)";
-  window.location = "index.html";
-}; 
-
+  window.location = "play.html";
+};
