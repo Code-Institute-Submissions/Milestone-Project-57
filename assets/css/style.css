@@ -2,6 +2,7 @@ body {
   background-color: #ffcb05;
   color: #003a70;
   font-family: "Balsamiq Sans", sans-serif;
+  text-transform: uppercase;
 }
 
 h2 {
@@ -60,4 +61,12 @@ a:hover {
   width: 50%;
   border-radius: 50px;
   background-color: rgba(235, 240, 168, 0.3);
+}
+
+p {
+  font-size: 1.2rem;
+  font: bolder;
+  padding: 20px;
+  margin: 0;
+  color: #003a70;
 }
