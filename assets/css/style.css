@@ -1,3 +1,5 @@
+/*---------------------- Body  --------------------*/
+
 body {
   background-color: #ffcb05;
   color: #003a70;
@@ -5,10 +7,14 @@ body {
   text-transform: uppercase;
 }
 
+/*---------------------- Heading  --------------------*/
+
 h2 {
   font-size: 2em;
-  margin: 10px auto;
+  margin: 30px auto;
 }
+
+/*---------------------- All border  --------------------*/
 
 .border-guess,
 .border-option {
@@ -17,6 +23,8 @@ h2 {
   background-color: rgb(255, 255, 255);
   border: 2px solid #3d7dca;
 }
+
+/*---------------------- Nav Bar  --------------------*/
 
 .nav {
   padding: 15px 0;
@@ -35,17 +43,20 @@ h2 {
   text-align: center;
 }
 
-a:hover {
-  color: #003a70;
-  text-decoration: none;
-  transform: translateY(-5px);
-  transition: transform 150ms;
-}
+/*---------------------- About section  --------------------*/
 
 .about {
-  margin: 50px;
+  margin: 10px;
   text-align: center;
 }
+
+p {
+  font-size: 1rem;
+  color: #003a70;
+  padding: 10px;
+}
+
+/*---------------------- Social Links  --------------------*/
 
 .social-link {
   text-align: center;
@@ -58,16 +69,21 @@ a:hover {
   font-size: 1.3rem;
 }
 
+/*---------------------- Guess Image section   --------------------*/
+
 .image {
   width: 50%;
   border-radius: 50px;
   background-color: rgba(235, 240, 168, 0.3);
 }
 
-p {
-  font-size: 1.2rem;
+/*---------------------- Hovers  --------------------*/
+
+a:hover {
   color: #003a70;
-  padding: 10px;
+  text-decoration: none;
+  transform: translateY(-5px);
+  transition: transform 150ms;
 }
 
 #option1:hover,
