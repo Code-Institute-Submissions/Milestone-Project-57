@@ -1,3 +1,5 @@
+// Creating variables
+
 let correctPokemon;
 let correctPokemon2;
 const option1 = document.getElementById("option1");
@@ -6,6 +8,8 @@ const option2 = document.getElementById("option2");
 //creating random number for id and 151 is first generation pokemon
 
 let randomID = Math.floor(Math.random() * 151) + 1;
+
+//Fetching data from API
 
 const start = async () => {
   // call the pokemon api for the data
@@ -18,14 +22,15 @@ const start = async () => {
     image: json.sprites.front_default,
   };
 
-  // join the pokemon image data
+  // adding to html the pokemon image
   document.getElementById("correct-image").src = correctPokemon.image;
 
-  // Adding to html
+  // Adding to html option A 
 
   option1.innerHTML = `A. ${correctPokemon.name}`;
 
-  //creating another random pokemon for option 2
+  //creating another  random pokemon for option 2
+  //Fetching data from API
 
   const start2 = async () => {
     let randomID = Math.floor(Math.random() * 151) + 1;
@@ -36,13 +41,18 @@ const start = async () => {
       name: json.name,
     };
 
-    // Adding to html
+    // Adding to html option B
 
     option2.innerHTML = `B. ${correctPokemon2.name}`;
   };
+  
   start2();
 };
+
+
 start();
+
+// Adding onclick  styling to options and refreshing or directing to play page.
 
 option1.onclick = function () {
   option1.style.backgroundColor = "rgba(30, 255, 0, 0.315)";
