@@ -49,7 +49,6 @@ const start = async () => {
   start2();
 };
 
-
 start();
 
 // Adding onclick  styling to options and refreshing or directing to play page.
