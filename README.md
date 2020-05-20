@@ -2,6 +2,8 @@
 
 Website: https://amantamu.github.io/Milestone-Project-2/
 
+GitHub: https://github.com/amantamu/Milestone-Project-2
+
 This is web app game. When I was growing up I used to watch Pokémon everyday. In Pokémon series there used to be segment called who's that Pokémon before ads. And I could guess every Pokémon because it was one of the Pokémon of the episode. I made this game same as that , easy to guess and "Answer is always A".
 
 ##UX
