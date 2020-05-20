@@ -1,6 +1,7 @@
 ##Who's That Pokémon
 
 Website: https://amantamu.github.io/Milestone-Project-2/
+
 This is web app game. When I was growing up I used to watch Pokémon everyday. In Pokémon series there used to be segment called who's that Pokémon before ads. And I could guess every Pokémon because it was one of the Pokémon of the episode. I made this game same as that , easy to guess and "Answer is always A".
 
 ##UX
@@ -46,9 +47,13 @@ I used gitpod as code editor. I used gitpod to challenge myself to be similar an
 I used github to deploy the website. Deploying or making live was very easy.
 
 ##Credits
+
 ###Content
+
 • Pokémon API: https://pokeapi.co/
+
 ###Media
+
 • All the images are from api: https://pokeapi.co/api/v2/pokemon/
 Acknowledgements
 • Inspiration or idea from: https://www.youtube.com/watch?v=tFVdxGgJPCo&t=813s
